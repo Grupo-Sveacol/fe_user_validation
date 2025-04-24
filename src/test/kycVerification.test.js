@@ -1,5 +1,6 @@
 import { Builder, By, until } from "selenium-webdriver";
 
+// Show option to start KYC verification (HU001)
 (async function verifyKYCButton() {
   let driver = await new Builder().forBrowser("chrome").build();
 
